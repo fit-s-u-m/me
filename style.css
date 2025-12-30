@@ -1,0 +1,76 @@
+:root {
+  --green-500: #344E41;
+  --green-400: #3A5A40;
+  --green-300: #588157;
+  --green-200: #A3B18A;
+  --green-100: #DAD7CD;
+  --black: #000000;
+  --white: #ffffff;
+
+}
+body {
+  background-color: var(--green-500);
+}
+h1 {
+  color: var(--white);
+}
+p,h2,h3,div{
+  color: var(--green-100);
+}
+a{
+  color:var(--green-200);
+}
+strong {
+  color:var(--green-200)
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: space-around;
+  border: 2px solid var(--green-400);
+  margin: 20px;
+  padding: 10px;
+}
+.project {
+  margin: 5px;
+  padding: 10px;
+  border: 1px dashed var(--green-300);
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+li {
+  list-style-type: none;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin: 5px 0;
+  padding: 2px;
+  background-color: var(--green-400);
+  color: var(--white);
+}
+footer p {
+  color: var(--white);
+  text-decoration: none;
+  margin: 0;
+}
+#nehemiah{
+  width:100px;
+  height:100px;
+  display:flex;
+  color: var(--green-400);
+  gap:10px;
+}
+#nehemiah img{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  object-fit:cover;
+}
