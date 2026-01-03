@@ -1,6 +1,6 @@
 :root {
   /* Backgrounds */
-  --bg-primary: #282828;     /* bg0 */
+  --bg-primary: #262920;     /* bg0 */
   --bg-secondary: #3C3836;   /* bg1 */
 
   /* Text */
@@ -57,7 +57,7 @@ strong {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   justify-content: space-around;
 
-  border: 2px solid var(--accent-secondary);
+  border: 2px solid var(--text-secondary);
   border-radius: 10px;
 
   margin: 20px;
@@ -130,13 +130,14 @@ footer p {
 }
 #nehemiah h2 {
   margin: 0;
+  align-self: center;
 }
 
 #nehemiah img {
   width: 60px;
   height: 60px;
 
-  border-radius: 50%;
+  /* border-radius: 50%; */
   object-fit: cover;
 
 }
